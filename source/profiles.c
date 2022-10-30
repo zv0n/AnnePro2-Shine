@@ -67,7 +67,8 @@ void white(led_t *currentKeyLedColors) {
 
   // setAllKeysColor(currentKeyLedColors, 0x80ff99);
   /* 80ff99 -> H63 S125 V255 */
-  setAllKeysColorHSV(currentKeyLedColors, 63, 125, 255);
+  //setAllKeysColorHSV(currentKeyLedColors, 63, 125, 255);
+  setAllKeysColorHSV(currentKeyLedColors, 0, 0, 0);
 }
 
 void miamiNights(led_t *currentKeyLedColors) {
